@@ -47,8 +47,13 @@
 
 
         <!--Form with header-->
+        <div class="alert alert-success alert-dismissible fade show ">
+            <strong>Success!</strong> Form successfully submitted
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <!-- <p>hello</p> -->
+        </div>
 
-        <form action="" method="post">
+        <form action="#" method="post" id="form">
             <div class="card border-primary rounded-0">
                 <div class="card-header p-0">
                     <div class="bg-info text-white text-center py-2">
@@ -81,7 +86,7 @@
                             <div class="input-group-prepend">
                                 <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
                             </div>
-                            <textarea class="form-control" placeholder="Send your message" required></textarea>
+                            <textarea class="form-control" id="message" placeholder="Send your message" required></textarea>
                         </div>
                     </div>
 
@@ -100,6 +105,8 @@
 </div>
 </body>
 
+    
+
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -108,5 +115,8 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="./javascript/about.js"></script>
+
 
 </html>
